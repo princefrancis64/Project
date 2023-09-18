@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ineuron-favicon.png') }}">
+    <style>
+        body{background-color:#DADBDD
+        }
+        table{border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comments</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Author</th>
+                <th>Comments</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in range(comment['Author']|length) %}
+                <tr>
+                    <td>{{ comment['Author'][i] }}</td>
+                    <td>{{ comment['Comment'][i]  }}</td>
+
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

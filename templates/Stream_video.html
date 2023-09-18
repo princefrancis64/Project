@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STREAMING</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ineuron-favicon.png') }}">
+    <style>
+
+            body {
+             background-color:#DADBDD
+
+             }
+            h1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>STREAMING {{channel}}</h1>
+    <iframe src="https://www.youtube.com/embed/{{id}}" width="50%" height="400" style="border:1px solid black;"></iframe><br>
+    <form method="GET" action="/download">
+        <label for="homepage">Video url</label>
+        <input type="url" id="homepage" name="homepage" value="{{url1}}">
+        <button type="submit">Download Video</button>
+    </form>
+    <a href="{{ url_for('comments1',id = id ) }}">COMMENT SECTION</a>
+</body>
+</html>

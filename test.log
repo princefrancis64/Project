@@ -1,0 +1,126 @@
+INFO werkzeug 2023-09-18 00:00:43,062  * Detected change in 'C:\\Users\\Prince\\PycharmProjects\\Python_Project\\app.py', reloading
+INFO werkzeug 2023-09-18 00:00:43,301  * Restarting with stat
+WARNING werkzeug 2023-09-18 00:00:45,715  * Debugger is active!
+INFO werkzeug 2023-09-18 00:00:45,715  * Debugger PIN: 556-384-025
+INFO werkzeug 2023-09-18 00:01:00,823 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO werkzeug 2023-09-18 00:01:00,823 [33mPress CTRL+C to quit[0m
+INFO werkzeug 2023-09-18 00:01:00,825  * Restarting with stat
+WARNING werkzeug 2023-09-18 00:01:03,537  * Debugger is active!
+INFO werkzeug 2023-09-18 00:01:03,544  * Debugger PIN: 556-384-025
+INFO werkzeug 2023-09-18 00:01:26,360 127.0.0.1 - - [18/Sep/2023 00:01:26] "GET / HTTP/1.1" 200 -
+INFO werkzeug 2023-09-18 00:01:26,736 127.0.0.1 - - [18/Sep/2023 00:01:26] "[36mGET /static/images/ineuronlogo.png HTTP/1.1[0m" 304 -
+DEBUG pytube.helpers 2023-09-18 00:01:30,945 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:01:32,026 Channel ID of the youtube channel is UCvExuGSwx1Yw30dDY8JEJ3w
+INFO werkzeug 2023-09-18 00:01:32,027 127.0.0.1 - - [18/Sep/2023 00:01:32] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-18 00:01:32,061 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-18 00:01:32,084 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+WARNING googleapiclient.http 2023-09-18 00:01:33,442 Encountered 403 Forbidden with reason "quotaExceeded"
+ERROR root 2023-09-18 00:01:33,443 <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+INFO werkzeug 2023-09-18 00:01:33,489 127.0.0.1 - - [18/Sep/2023 00:01:33] "[35m[1mGET /channelid?channel_id=UCvExuGSwx1Yw30dDY8JEJ3w HTTP/1.1[0m" 500 -
+INFO werkzeug 2023-09-18 00:01:33,548 127.0.0.1 - - [18/Sep/2023 00:01:33] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:33,572 127.0.0.1 - - [18/Sep/2023 00:01:33] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:33,582 127.0.0.1 - - [18/Sep/2023 00:01:33] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG pytube.helpers 2023-09-18 00:01:40,193 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:01:41,272 Channel ID of the youtube channel is UCNU_lfiiWBdtULKOw6X0Dig
+INFO werkzeug 2023-09-18 00:01:41,273 127.0.0.1 - - [18/Sep/2023 00:01:41] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-18 00:01:41,292 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-18 00:01:41,322 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCNU_lfiiWBdtULKOw6X0Dig&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+WARNING googleapiclient.http 2023-09-18 00:01:42,405 Encountered 403 Forbidden with reason "quotaExceeded"
+ERROR root 2023-09-18 00:01:42,405 <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCNU_lfiiWBdtULKOw6X0Dig&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+INFO werkzeug 2023-09-18 00:01:42,443 127.0.0.1 - - [18/Sep/2023 00:01:42] "[35m[1mGET /channelid?channel_id=UCNU_lfiiWBdtULKOw6X0Dig HTTP/1.1[0m" 500 -
+INFO werkzeug 2023-09-18 00:01:42,500 127.0.0.1 - - [18/Sep/2023 00:01:42] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:42,528 127.0.0.1 - - [18/Sep/2023 00:01:42] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:42,536 127.0.0.1 - - [18/Sep/2023 00:01:42] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG pytube.helpers 2023-09-18 00:01:54,938 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:01:55,996 Channel ID of the youtube channel is UCXgGY0wkgOzynnHvSEVmE3A
+INFO werkzeug 2023-09-18 00:01:55,998 127.0.0.1 - - [18/Sep/2023 00:01:55] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-18 00:01:56,021 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-18 00:01:56,035 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCXgGY0wkgOzynnHvSEVmE3A&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+WARNING googleapiclient.http 2023-09-18 00:01:57,172 Encountered 403 Forbidden with reason "quotaExceeded"
+ERROR root 2023-09-18 00:01:57,172 <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCXgGY0wkgOzynnHvSEVmE3A&eventType=none&maxResults=50&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+INFO werkzeug 2023-09-18 00:01:57,191 127.0.0.1 - - [18/Sep/2023 00:01:57] "[35m[1mGET /channelid?channel_id=UCXgGY0wkgOzynnHvSEVmE3A HTTP/1.1[0m" 500 -
+INFO werkzeug 2023-09-18 00:01:57,270 127.0.0.1 - - [18/Sep/2023 00:01:57] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:57,272 127.0.0.1 - - [18/Sep/2023 00:01:57] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:01:57,288 127.0.0.1 - - [18/Sep/2023 00:01:57] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:02:56,925  * Detected change in 'C:\\Users\\Prince\\PycharmProjects\\Python_Project\\video_info.py', reloading
+INFO werkzeug 2023-09-18 00:02:57,218  * Restarting with stat
+INFO werkzeug 2023-09-18 00:02:59,371 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO werkzeug 2023-09-18 00:02:59,372 [33mPress CTRL+C to quit[0m
+INFO werkzeug 2023-09-18 00:02:59,374  * Restarting with stat
+WARNING werkzeug 2023-09-18 00:03:00,028  * Debugger is active!
+INFO werkzeug 2023-09-18 00:03:00,033  * Debugger PIN: 556-384-025
+WARNING werkzeug 2023-09-18 00:03:02,075  * Debugger is active!
+INFO werkzeug 2023-09-18 00:03:02,090  * Debugger PIN: 556-384-025
+INFO werkzeug 2023-09-18 00:03:05,988 127.0.0.1 - - [18/Sep/2023 00:03:05] "GET / HTTP/1.1" 200 -
+INFO werkzeug 2023-09-18 00:03:06,349 127.0.0.1 - - [18/Sep/2023 00:03:06] "[36mGET /static/images/ineuronlogo.png HTTP/1.1[0m" 304 -
+DEBUG pytube.helpers 2023-09-18 00:03:23,686 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:03:24,733 Channel ID of the youtube channel is UCvExuGSwx1Yw30dDY8JEJ3w
+INFO werkzeug 2023-09-18 00:03:24,733 127.0.0.1 - - [18/Sep/2023 00:03:24] "[32mPOST /request HTTP/1.1[0m" 302 -
+DEBUG pytube.helpers 2023-09-18 00:03:24,754 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:03:25,709 Channel ID of the youtube channel is UCvExuGSwx1Yw30dDY8JEJ3w
+INFO werkzeug 2023-09-18 00:03:25,712 127.0.0.1 - - [18/Sep/2023 00:03:25] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-18 00:03:25,739 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-18 00:03:25,753 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=2&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+WARNING googleapiclient.http 2023-09-18 00:03:27,055 Encountered 403 Forbidden with reason "quotaExceeded"
+ERROR root 2023-09-18 00:03:27,055 <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=2&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+INFO werkzeug 2023-09-18 00:03:27,099 127.0.0.1 - - [18/Sep/2023 00:03:27] "[35m[1mGET /channelid?channel_id=UCvExuGSwx1Yw30dDY8JEJ3w HTTP/1.1[0m" 500 -
+INFO werkzeug 2023-09-18 00:03:27,159 127.0.0.1 - - [18/Sep/2023 00:03:27] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:03:27,166 127.0.0.1 - - [18/Sep/2023 00:03:27] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:03:27,198 127.0.0.1 - - [18/Sep/2023 00:03:27] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:03:50,067  * Detected change in 'C:\\Users\\Prince\\PycharmProjects\\Python_Project\\video_info.py', reloading
+INFO werkzeug 2023-09-18 00:03:50,395  * Restarting with stat
+INFO werkzeug 2023-09-18 00:03:52,360 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO werkzeug 2023-09-18 00:03:52,360 [33mPress CTRL+C to quit[0m
+INFO werkzeug 2023-09-18 00:03:52,361  * Restarting with stat
+WARNING werkzeug 2023-09-18 00:03:53,502  * Debugger is active!
+INFO werkzeug 2023-09-18 00:03:53,509  * Debugger PIN: 556-384-025
+WARNING werkzeug 2023-09-18 00:03:55,125  * Debugger is active!
+INFO werkzeug 2023-09-18 00:03:55,130  * Debugger PIN: 556-384-025
+DEBUG pytube.helpers 2023-09-18 00:03:56,615 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-18 00:03:57,587 Channel ID of the youtube channel is UCvExuGSwx1Yw30dDY8JEJ3w
+INFO werkzeug 2023-09-18 00:03:57,590 127.0.0.1 - - [18/Sep/2023 00:03:57] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-18 00:03:57,622 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-18 00:03:57,645 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=1&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+WARNING googleapiclient.http 2023-09-18 00:03:58,612 Encountered 403 Forbidden with reason "quotaExceeded"
+ERROR root 2023-09-18 00:03:58,612 <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=1&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+INFO werkzeug 2023-09-18 00:03:58,688 127.0.0.1 - - [18/Sep/2023 00:03:58] "[35m[1mGET /channelid?channel_id=UCvExuGSwx1Yw30dDY8JEJ3w HTTP/1.1[0m" 500 -
+INFO werkzeug 2023-09-18 00:03:59,310 127.0.0.1 - - [18/Sep/2023 00:03:59] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:03:59,312 127.0.0.1 - - [18/Sep/2023 00:03:59] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-18 00:03:59,349 127.0.0.1 - - [18/Sep/2023 00:03:59] "[36mGET /channelid?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO werkzeug 2023-09-19 02:20:02,796 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO werkzeug 2023-09-19 02:20:02,796 [33mPress CTRL+C to quit[0m
+INFO werkzeug 2023-09-19 02:20:02,796  * Restarting with stat
+WARNING werkzeug 2023-09-19 02:20:04,967  * Debugger is active!
+INFO werkzeug 2023-09-19 02:20:04,983  * Debugger PIN: 556-384-025
+INFO werkzeug 2023-09-19 02:20:15,930 127.0.0.1 - - [19/Sep/2023 02:20:15] "GET / HTTP/1.1" 200 -
+INFO werkzeug 2023-09-19 02:20:16,360 127.0.0.1 - - [19/Sep/2023 02:20:16] "[36mGET /static/images/ineuronlogo.png HTTP/1.1[0m" 304 -
+DEBUG pytube.helpers 2023-09-19 02:20:18,352 matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO root 2023-09-19 02:20:19,266 Channel ID of the youtube channel is UCvExuGSwx1Yw30dDY8JEJ3w
+INFO werkzeug 2023-09-19 02:20:19,267 127.0.0.1 - - [19/Sep/2023 02:20:19] "[32mPOST /request HTTP/1.1[0m" 302 -
+INFO googleapiclient.discovery_cache 2023-09-19 02:20:19,277 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-19 02:20:19,286 URL being requested: GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCvExuGSwx1Yw30dDY8JEJ3w&eventType=none&maxResults=2&order=date&publishedAfter=2023-03-26T00%3A00%3A00Z&publishedBefore=2023-09-01T00%3A00%3A00Z&type=video&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+INFO googleapiclient.discovery_cache 2023-09-19 02:20:20,487 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-19 02:20:20,502 URL being requested: GET https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=zpm4d1g8hDY&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+DEBUG googleapiclient.discovery 2023-09-19 02:20:21,415 URL being requested: GET https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=sH2y-E7TQow&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+INFO googleapiclient.discovery_cache 2023-09-19 02:20:21,565 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-19 02:20:21,576 URL being requested: GET https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=zpm4d1g8hDY&id=sH2y-E7TQow&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+INFO root 2023-09-19 02:20:22,404 We have got our Dictionary of the values which needs to be the table 
+INFO root 2023-09-19 02:20:22,533 Dataframe successfully loaded to mysql database
+INFO werkzeug 2023-09-19 02:20:22,544 127.0.0.1 - - [19/Sep/2023 02:20:22] "GET /channelid?channel_id=UCvExuGSwx1Yw30dDY8JEJ3w HTTP/1.1" 200 -
+INFO werkzeug 2023-09-19 02:20:22,647 127.0.0.1 - - [19/Sep/2023 02:20:22] "[36mGET /static/images/youtubelog.png HTTP/1.1[0m" 304 -
+INFO root 2023-09-19 02:20:23,697 url1 and img has been sucessfully read
+INFO werkzeug 2023-09-19 02:20:23,700 127.0.0.1 - - [19/Sep/2023 02:20:23] "GET /details/sH2y-E7TQow?url1=https://www.youtube.com/watch?v%3DsH2y-E7TQow&img=https://i.ytimg.com/vi/sH2y-E7TQow/hqdefault.jpg&channel=TalkFCB HTTP/1.1" 200 -
+INFO googleapiclient.discovery_cache 2023-09-19 02:20:25,399 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-19 02:20:25,414 URL being requested: GET https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=sH2y-E7TQow&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+INFO googleapiclient.discovery_cache 2023-09-19 02:20:26,334 file_cache is only supported with oauth2client<4.0.0
+DEBUG googleapiclient.discovery 2023-09-19 02:20:26,356 URL being requested: GET https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=sH2y-E7TQow&key=AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk&alt=json
+INFO root 2023-09-19 02:20:27,447 encoding thumbnail into base64
+DEBUG urllib3.connectionpool 2023-09-19 02:20:27,458 Starting new HTTPS connection (1): i.ytimg.com:443
+DEBUG urllib3.connectionpool 2023-09-19 02:20:28,299 https://i.ytimg.com:443 "GET /vi/sH2y-E7TQow/hqdefault.jpg HTTP/1.1" 200 31552
+INFO root 2023-09-19 02:20:28,348 We have successfully converted the image to base64 format and appended to our dictionary
+INFO root 2023-09-19 02:20:29,788 Successfully inserted Author Name,Comments,Youtuber Name,thumbnail image in base64 to MongoDB
+INFO werkzeug 2023-09-19 02:20:29,819 127.0.0.1 - - [19/Sep/2023 02:20:29] "GET /comments/sH2y-E7TQow HTTP/1.1" 200 -

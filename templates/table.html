@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playlist</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ineuron-favicon.png') }}">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        body {
+             background-image: url("{{url_for('static', filename = 'images/youtubelog.png')}}");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: 100% 100%;
+             background-color: rgba(255, 255, 255, 0.1);
+             }
+        h1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>CHANNEL PLAYLIST</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Views</th>
+                <th>Likes</th>
+                <th>Comments</th>
+                <th>Thumbanil url</th>
+                <th>Video url</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in range(df['Title']|length) %}
+                <tr>
+                    <td><a href="{{url_for('details1',id = df['Video ID'][i],url1 =df['Video link'][i],
+                    img =df['Thumbnail url'][i],channel=df['Channel Title'][i])}}">
+                        {{ df['Title'][i] }}</a></td>
+                    <td>{{ df['Views'][i] }}</td>
+                    <td>{{ df['Likes'][i] }}</td>
+                    <td>{{ df['Comments'][i] }}</td>
+                    <td>{{ df['Thumbnail url'][i] }}</td>
+                    <td>{{ df['Video link'][i] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
