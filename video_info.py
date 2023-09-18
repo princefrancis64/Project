@@ -11,7 +11,7 @@ def video_info(youtube,channel_id):
         part="snippet",
         channelId=channel_id,
         eventType="none",
-        maxResults=2,
+        maxResults=50,
         order="date",
         publishedAfter="2023-03-26T00:00:00Z",
         publishedBefore="2023-09-01T00:00:00Z",
