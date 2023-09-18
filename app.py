@@ -35,7 +35,7 @@ def get_youtube():
     :return: object'''
     YOUTUBE_API_SERVICE_NAME = 'youtube'
     YOUTUBE_API_VERSION = 'v3'
-    DEVELOPER_KEY = 'AIzaSyCdOCanTQII7XUXRF6wM6aXGrBf-De4XJk'
+    DEVELOPER_KEY = 'Enter API'
     youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
                     developerKey=DEVELOPER_KEY)
     return youtube
